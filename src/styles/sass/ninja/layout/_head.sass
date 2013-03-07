@@ -1,0 +1,70 @@
+/* ==========================================================================
+ * $ Head
+ * ========================================================================== */
+
+#Head
+    position: fixed
+    top: 0
+    right: 0
+    left: 0
+    z-index: 4
+    background: 
+        color: #222
+    a
+        color: #999
+        &:hover
+            color: #FFF
+            text-decoration: none
+
+    .SiteTitle
+        float: left
+        margin: 0
+        a
+            display: block
+            padding: 18px 15px 12px 65px
+            background:
+                image: image-url("ninja.svg")
+                size: 35px
+                repeat: no-repeat
+                position: center left 15px
+            font:
+                family: "SF Shai Fontai"
+                size: 32px
+                weight: 500
+            line-height: 20px
+
+    .SiteMenu
+        float: left
+        ul
+            float: left
+            margin: 0
+        li
+            float: left
+        a
+            display: block
+            padding: 15px
+            font:
+                size: 14px
+                weight: normal
+            line-height: 20px
+        .Selected
+            color: #FFF
+            background:
+                color: #080808
+
+    .SiteSearch
+        form
+            padding: 9px 15px
+            div
+                position: relative
+        .InputBox
+            width: 200px
+            padding: 6px
+                right: 30px
+            font: 
+                size: 14px
+            line-height: 20px
+        .Button
+            top: 0
+            right: 0
+            margin: 7px

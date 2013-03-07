@@ -1,0 +1,28 @@
+/* ==========================================================================
+ * $ Base
+ * ========================================================================== */
+
+*
+    +box-sizing(border-box)
+
+body
+    padding: 
+        top: 50px
+
+a
+    +transition(0.2s color, 0.2s background, 0.2s box-shadow)
+
+::selection
+    background:
+        color: #F00
+    color: #FFF
+    text-shadow: 1px 1px 0 rgba(#000, 0.25)
+
+ul,
+ol
+    margin: 0
+
+/* $ Typography
+ * ========================================================================== */
+
++font-face("SF Shai Fontai", font-files("sf-shai-fontai/webfont.ttf", "sf-shai-fontai/webfont.eot", "sf-shai-fontai/webfont.svg", "sf-shai-fontai/webfont.woff"))

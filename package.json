@@ -1,0 +1,21 @@
+{
+  "name": "Ninja",
+  "description": "description",
+  "version": "1.0.0",
+  "author": {
+    "name": "Kasper K. Isager",
+    "email": "kasperisager@gmail.com",
+    "url": "https://github.com/kasperisager"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-devtools": "0.1.x",
+    "grunt-reloadr": "0.1.x",
+    "grunt-contrib-compass": "0.1.x",
+    "grunt-contrib-less": "0.5.x",
+    "grunt-contrib-coffee": "0.4.x",
+    "grunt-contrib-watch": "0.3.x",
+    "grunt-contrib-uglify": "0.1.x"
+  }
+}
