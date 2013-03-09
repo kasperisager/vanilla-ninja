@@ -38,7 +38,7 @@ For component management, you'll need to install Bower. Just like Grunt CLI, Bow
 $ npm install -g bower
 ```
 
-Lastly, if you want to use compilers and frameworks that aren't written in Node.js and therefore available through npm, you'll need to install these. This is the case for the Compass Framework, which is used in the Ninja example theme:  
+Lastly, if you want to use compilers and frameworks that aren't written in Node.js and therefore not available through npm, you'll need to install these. This is the case for the Compass Framework, which is used in the Ninja example theme:  
 ```sh
 $ gem update --system
 $ gem install compass
