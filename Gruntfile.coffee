@@ -62,5 +62,5 @@ module.exports = (grunt) ->
     grunt.loadNpmTasks 'grunt-contrib-coffee'
     
     # Grunt tasks.
-    grunt.registerTask 'default', ['less', 'coffee']
+    grunt.registerTask 'default', ['compass', 'less', 'coffee', 'uglify']
     grunt.registerTask 'ninja', ['reloadr', 'watch']
