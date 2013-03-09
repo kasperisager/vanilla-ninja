@@ -54,6 +54,12 @@
         <div class="Row">
 
             <section id="Legal" class="Column LegalColumn">
+                <div class="Copyright">
+                    <p>Copyright © {$smarty.now|date_format:"%Y"} <a href="http://your-url/">[Your Name]</a></p>
+                </div>
+                <div class="Credits">
+                    <p>Powered by <a href="{vanillaurl}">Vanilla</a> and <a href="https://github.com/kasperisager/Ninja">Ninja</a></p>
+                </div>
                 {asset name="Foot"}
             </section><!-- //Legal -->
 

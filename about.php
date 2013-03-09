@@ -1,15 +1,5 @@
 <?php if (!defined('APPLICATION')) exit();
 
-/**
- * Ninja
- *
- * @package Ninja
- * @version 1.0.0
- * @author Kasper K. Isager
- * @copyright Copyright 2013 (c) Kasper K. Isager
- * @license http://opensource.org/licenses/MIT MIT
- */
-
 $ThemeInfo['Ninja'] = array(
 
     'Name' => 'Ninja',
