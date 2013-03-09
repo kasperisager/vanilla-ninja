@@ -8,7 +8,8 @@ Ninja will also stealthily do browser sniffing and feature detection using Condi
 
 To get started using Ninja, either:
 * [Download the latest release](https://github.com/kasperisager/Ninja/archive/master.zip)
-* Clone the repository directly into your Vanilla `themes` directory:
+* Clone the repository directly into your Vanilla `themes` directory:  
+`$ cd /path/to/vanilla/themes/`  
 `$ git clone git://github.com/kasperisager/Ninja.git`
 
 Now that you've downloaded Ninja, it's time to get it installed. Ninja uses npm for managing development dependencies and Bower for managing component dependencies:
