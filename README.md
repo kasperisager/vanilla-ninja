@@ -10,8 +10,8 @@ Ninja will also stealthily do browser sniffing and feature detection using Condi
 ## Getting started
 
 To get started using Ninja, either:
-* [Download the latest release](https://github.com/kasperisager/Ninja/archive/master.zip)
-* Clone the repository directly into your Vanilla `themes` directory:  
+- [Download the latest release](https://github.com/kasperisager/Ninja/archive/master.zip)
+- Clone the repository directly into your Vanilla `themes` directory:  
 `$ cd /path/to/vanilla/themes/`  
 `$ git clone git://github.com/kasperisager/Ninja.git`
 
@@ -26,9 +26,9 @@ $ bower install
 
 Ninja does make a few assumptions about your existing development environment:
 
-* You've already installed and use the Grunt CLI:  
+- You've already installed and use the Grunt CLI:  
 `$ npm install -g grunt-cli`
-* If you want to use compilers that aren't available through npm, you've already installed these.  
+- If you want to use compilers that aren't available through npm, you've already installed these.  
 This is the case for e.g. Compass, which is used in Ninja by default:  
 `$ gem update --system`  
 `$ gem install compass`
@@ -43,6 +43,11 @@ Runs the default Grunt task which will compile all assets including the Ninja sc
 
 #### watch - `grunt ninja`
 Starts an instance of Reloadr (a basic LiveReload CLI) that watches the compiled assets for changes and pushes these to your Vanilla installation automatically and runs the `watch` tasks that watches your source assets and compiles these whenever they change.
+
+
+## Issue tracking
+
+If you come across any bugs or if you have a feature request, please [file an issue](https://github.com/kasperisager/Ninja/issues) using the Github Issue tracker. Ninja won't be supported through http://vanillaforums.org so please stick to using Github for inquires about bugs and feature requests. Thanks!
 
 
 ## Special thanks
