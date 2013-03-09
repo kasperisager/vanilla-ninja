@@ -2,9 +2,9 @@
 
 # Ninja [![Build Status](https://travis-ci.org/kasperisager/Ninja.png)](https://travis-ci.org/kasperisager/Ninja) [![Dependency Status](https://gemnasium.com/kasperisager/Ninja.png)](https://gemnasium.com/kasperisager/Ninja)
 
-Ninja is a super sneaky Node.js, Grunt and Bower powered scaffold for building superb Vanilla themes. Ninja allows you to easily use your choice of preprocessors and languages in your themes and enables you to write kick-ass build processes using the many plugins available for Grunt.
+Ninja is a super sneaky [Node.js](http://nodejs.org/), [Grunt](http://gruntjs.com/) and [Bower](http://twitter.github.com/bower/) powered scaffold for building superb Vanilla themes. Ninja allows you to easily use your choice of preprocessors and languages in your themes and enables you to write kick-ass build processes using the many [plugins available for Grunt](http://gruntjs.com/plugins).
 
-Ninja will also stealthily do browser sniffing and feature detection using Conditionizr and Modernizr and will also reload your assets whenever they change using LiveReload - like a true shinobi!
+Ninja will also stealthily do browser sniffing and feature detection using [Conditionizr](https://github.com/conditionizr/conditionizr) and [Modernizr](https://github.com/Modernizr/Modernizr) and will also reload your assets whenever they change using [LiveReload](http://livereload.com/) - like a true shinobi!
 
 
 ## Getting started
@@ -15,7 +15,7 @@ To get started using Ninja, either:
 `$ cd /path/to/vanilla/themes/`  
 `$ git clone git://github.com/kasperisager/Ninja.git`
 
-Now that you've downloaded Ninja, it's time to get it installed. Ninja uses npm for managing [development dependencies](package.json) and Bower for managing [component dependencies](component.json):
+Now that you've downloaded Ninja, it's time to get it installed. Ninja uses [npm](https://npmjs.org/) for managing [development dependencies](package.json) and Bower for managing [component dependencies](component.json):
 
 ```sh
 $ npm install
@@ -24,14 +24,25 @@ $ bower install
 
 ### Prerequisites
 
-Ninja does make a few assumptions about your existing development environment:
+The above installation instructions assume that you've already installed Node.js on your computer. If this is not the case, please download and install the latest version from the official [Node.js download page](http://nodejs.org/download/).
 
-- You've already installed and use the Grunt CLI:  
-`$ npm install -g grunt-cli`
-- If you want to use compilers that aren't available through npm, you've already installed these.  
-This is the case for e.g. Compass, which is used in Ninja by default:  
-`$ gem update --system`  
-`$ gem install compass`
+For Grunt.js to work, you'll need to install [Grunt CLI](https://github.com/gruntjs/grunt-cli). This can be done using npm - notice that Grunt CLI must be installed globally:
+
+```sh
+$ npm install -g grunt-cli
+```
+
+For component management, you'll need to install Bower. Just like Grunt CLI, Bower must be installed globally:
+
+```sh
+$ npm install -g bower
+```
+
+Lastly, if you want to use compilers and frameworks that aren't written in Node.js and therefore available through npm, you'll need to install these. This is the case for the Compass Framework, which is used in the Ninja example theme:  
+```sh
+$ gem update --system
+$ gem install compass
+```
 
 
 ## Compiling assets
@@ -39,10 +50,10 @@ This is the case for e.g. Compass, which is used in Ninja by default:
 Once you've completed all of the above steps, you should be all set to start developing Vanilla themes using Ninja. Ninja comes with a couple of built-in Grunt tasks that you can use for compiling the source:
 
 #### build - `grunt`
-Runs the default Grunt task which will compile all assets including the Ninja scripts (`.coffee` by default) and stylesheets (`.sass` by default) as well as assets installed via Bower ([Bootstrap](https://github.com/twitter/bootstrap), [Modernizr](https://github.com/Modernizr/Modernizr) and [Conditionizr](https://github.com/conditionizr/conditionizr) by default).
+Runs the default Grunt task which will compile all assets including the Ninja scripts (`.coffee` by default) and stylesheets (`.sass` by default) as well as assets installed via Bower ([Bootstrap](https://github.com/twitter/bootstrap), Modernizr and Conditionizr by default).
 
 #### watch - `grunt ninja`
-Starts an instance of Reloadr (a basic LiveReload CLI) that watches the compiled assets for changes and pushes these to your Vanilla installation automatically and runs the `watch` tasks that watches your source assets and compiles these whenever they change.
+Starts an instance of [Reloadr](https://npmjs.org/package/grunt-reloadr) (a basic LiveReload CLI) that watches the compiled assets for changes and pushes these to your Vanilla installation automatically and runs the `watch` tasks that watches your source assets and compiles these whenever they change.
 
 
 ## Issue tracking
