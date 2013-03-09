@@ -6,27 +6,24 @@ Ninja will also stealthily do browser sniffing and feature detection using Condi
 
 ## Getting started
 
-To get started using Ninja, either [download the latest release](https://github.com/kasperisager/Ninja/archive/master.zip) or clone the repository directly into your Vanilla `themes` directory:
+To get started using Ninja, either:
+* [Download the latest release](https://github.com/kasperisager/Ninja/archive/master.zip)
+* Clone the repository directly into your Vanilla `themes` directory:
+`$ git clone git://github.com/kasperisager/Ninja.git`
 
-```sh
-$ git clone git://github.com/kasperisager/Ninja.git
-```
-
-Now that you've downloaded Ninja, it's time to get it installed. As Ninja is powered entirely by Node.js, installation is as simple as:
+Now that you've downloaded Ninja, it's time to get it installed. Ninja uses npm for managing development dependencies and Bower for managing component dependencies:
 
 ```sh
 $ npm install
-```
-
-You may also want to install the Bower components that bundles with Ninja:
-
-```sh
 $ bower install
 ```
 
 Ninja does make a few assumptions about your existing development environment:
 
-* You've already installed and use the Grunt CLI  
-```sh
-$ npm install -g grunt-cli
-```
+* You've already installed and use the Grunt CLI:  
+`$ npm install -g grunt-cli`
+* If you want to use compilers that aren't written in Node.js and available through npm, you've already installed these. This is the case for e.g. Compass:  
+`$ gem install compass`
+
+---
+Copyright 2013 [Kasper K. Isager](https://github.com/kasperisager). Licensed under the terms of the MIT License
