@@ -1,4 +1,4 @@
-![Ninja](src/images/ninja.png)
+[![Ninja](src/images/ninja.png)](https://github.com/kasperisager/Ninja)
 
 # Ninja [![Build Status](https://travis-ci.org/kasperisager/Ninja.png)](https://travis-ci.org/kasperisager/Ninja) [![Dependency Status](https://gemnasium.com/kasperisager/Ninja.png)](https://gemnasium.com/kasperisager/Ninja)
 
