@@ -22,6 +22,8 @@ $ npm install
 $ bower install
 ```
 
+### Prerequisites
+
 Ninja does make a few assumptions about your existing development environment:
 
 * You've already installed and use the Grunt CLI:  
