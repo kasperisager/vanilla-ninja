@@ -1,11 +1,15 @@
 {
   "name": "Ninja",
-  "description": "description",
+  "description": "Ninja is a super sneaky Node.js, Grunt and Bower powered scaffold for building superb Vanilla themes. Ninja allows you to easily use your choice of preprocessors and languages in your themes and enables you to write kick-ass build processes using the many plugins available for Grunt.",
   "version": "1.0.0",
   "author": {
     "name": "Kasper K. Isager",
     "email": "kasperisager@gmail.com",
     "url": "https://github.com/kasperisager"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kasperisager/Ninja.git"
   },
   "license": "MIT",
   "devDependencies": {
