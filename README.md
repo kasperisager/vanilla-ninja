@@ -26,7 +26,7 @@ $ bower install
 
 Ninja does make a few assumptions about your existing development environment:
 
-* You've already installed and use the Grunt CLI
+* You've already installed and use the Grunt CLI  
 ```sh
 $ npm install -g grunt-cli
 ```
