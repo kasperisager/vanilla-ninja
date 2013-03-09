@@ -13,7 +13,7 @@
  * @license http://opensource.org/licenses/MIT MIT
  */
 
-class NinjaCode implements Gdn_IPlugin {
+class NinjaTheme implements Gdn_IPlugin {
 
     /**
      * Set translation strings
