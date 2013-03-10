@@ -16,11 +16,10 @@
 
             <nav class="SiteMenu">
                 <ul>
-                    {home_link}
-                    {categories_link}
-                    {discussions_link}
-                    {activity_link}
-                    {custom_menu}
+                    {profile_link}
+                    {inbox_link}
+                    {dashboard_link}
+                    {signinout_link}
                 </ul>
             </nav><!-- //SiteMenu -->
 
