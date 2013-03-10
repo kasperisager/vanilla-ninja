@@ -98,7 +98,7 @@ ol {
     #Head .SiteTitle a {
       display: block;
       padding: 18px 15px 12px 65px;
-      background-image: url('../src/images/ninja.svg?1362075992');
+      background-image: url('../src/images/ninja.svg?1362835855');
       background-size: 35px;
       background-repeat: no-repeat;
       background-position: center left 15px;
@@ -376,6 +376,11 @@ textarea {
 
 .Dropdown,
 .MenuItems {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
   -webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
@@ -384,6 +389,10 @@ textarea {
   background-color: white;
   font-size: 14px;
   border: 1px solid #eeeeee; }
+  .Dropdown:before, .Dropdown:after,
+  .MenuItems:before,
+  .MenuItems:after {
+    display: none; }
   .Dropdown li a, .Dropdown li a:link,
   .MenuItems li a,
   .MenuItems li a:link {
@@ -401,6 +410,9 @@ textarea {
   .MenuItems li a:hover {
     color: #333333 !important;
     background-color: #eeeeee !important; }
+  .Dropdown hr,
+  .MenuItems hr {
+    margin: 5px; }
 
 .Count {
   display: inline-block;
