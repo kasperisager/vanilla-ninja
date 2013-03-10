@@ -39,7 +39,6 @@
             </nav><!-- //Breadcrumbs -->
 
             <aside id="Panel" class="Column PanelColumn">
-                {*{module name="MeModule"}*}
                 {asset name="Panel"}
             </aside><!-- //Panel -->
 
