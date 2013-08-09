@@ -1,6 +1,7 @@
 [![Ninja](src/images/ninja.png)](https://github.com/kasperisager/Ninja)
 
-# Ninja [![Build Status](https://travis-ci.org/kasperisager/Ninja.png)](https://travis-ci.org/kasperisager/Ninja) [![Dependency Status](https://gemnasium.com/kasperisager/Ninja.png)](https://gemnasium.com/kasperisager/Ninja)
+# Ninja [![Build Status](https://travis-ci.org/kasperisager/Ninja.png)](https://travis-ci.org/kasperisager/Ninja) [![Dependency Status](https://gemnasium.com/kasperisager/vanilla-ninja.png)](https://gemnasium.com/kasperisager/vanilla-ninja)
+
 
 Ninja is a super sneaky [Node.js](http://nodejs.org/), [Grunt](http://gruntjs.com/) and [Bower](http://twitter.github.com/bower/) powered scaffold for building superb Vanilla themes. Ninja allows you to easily use your choice of preprocessors and languages in your themes and enables you to write kick-ass build processes using the many [plugins available for Grunt](http://gruntjs.com/plugins).
 
