@@ -59,7 +59,7 @@ Starts an instance of [Reloadr](https://npmjs.org/package/grunt-reloadr) (a basi
 
 ## Issue tracking
 
-If you come across any bugs or if you have a feature request, please [file an issue](https://github.com/kasperisager/Ninja/issues) using the Github Issue tracker. Ninja won't be supported through http://vanillaforums.org so please stick to using Github for inquires about bugs and feature requests. Thanks!
+If you come across any bugs or if you have a feature request, please [file an issue](https://github.com/kasperisager/Ninja/issues) using the Github Issue tracker. Ninja won't be supported through http://vanillaforums.org so please stick to using Github for inquiries about bugs and feature requests. Thanks!
 
 
 ## Special thanks
