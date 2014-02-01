@@ -21,7 +21,7 @@
     "gulp-uglify": "0.2.x",
     "gulp-livereload": "0.3.x",
     "tiny-lr": "0.0.x",
-    "gulp-concat": "~2.1.7",
-    "event-stream": "~3.1.0"
+    "gulp-concat": "2.1.x",
+    "event-stream": "3.1.x"
   }
 }
