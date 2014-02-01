@@ -1,0 +1,38 @@
+/* ==========================================================================
+ * $ Base
+ * ========================================================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 50px;
+}
+
+a {
+  transition: 200ms color, 200ms background, 200ms box-shadow;
+}
+
+::selection {
+  color: white;
+  text-shadow: 1px 1px 0 rgba(#000,.25);
+  background-color: red;
+}
+
+ul,
+ol {
+  margin: 0;
+}
+
+/* $ Typography
+ * ========================================================================== */
+
+@font-face {
+  font-family: "SF Shai Fontai";
+  src:
+    url("fonts/sf-shai-fontai/webfont.eot?") format("eot"),
+    url("fonts/sf-shai-fontai/webfont.woff") format("woff"),
+    url("fonts/sf-shai-fontai/webfont.ttf") format("truetype"),
+    url("fonts/sf-shai-fontai/webfont.svg") format("svg");
+}

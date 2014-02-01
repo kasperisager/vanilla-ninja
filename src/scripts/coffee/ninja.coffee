@@ -24,21 +24,4 @@ IN THE SOFTWARE.
 
 jQuery ->
 
-    # Replace active link in breadcrumbs with span
-    breadcrumbs = $('.Breadcrumbs')
-    homeCrumb = breadcrumbs.find('> span:last-child > a')
-    activeCrumb = breadcrumbs.find('.Crumb + span:last-child a')
-    $(homeCrumb).each ->
-        $(this).before($(this).html())
-        $(this).remove()
-    $(activeCrumb).each ->
-        $(this).before($(this).html())
-        $(this).remove()
-
-    # Replace active link in pager with span
-    pager = $('.Pager')
-    activePage = pager.find('.Highlight')
-    activePage.replaceWith ->
-        $ '<span />',
-            html: $(this).html()
-            class: $(this).attr('class')
+  # Do stuff!

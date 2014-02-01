@@ -1,0 +1,160 @@
+/* ==========================================================================
+ * $ Body
+ * ========================================================================== */
+
+#Body {
+  .Column {
+    margin: 0 0 15px;
+  }
+
+  .BreadcrumbsColumn {
+    margin: 15px 0;
+  }
+
+  .ContentColumn {
+    margin: {
+      left: 25%;
+    };
+  }
+
+  h1.H,
+  .HomepageTitle {
+    padding: {
+      bottom: 19px;
+    };
+    margin: {
+      top: 0;
+      bottom: 20px;
+    };
+    color: #5a5a5a;
+    border-bottom: 1px solid #eee;
+  }
+
+  .PageDescription {
+    margin: {
+      top: 0;
+      bottom: 20px;
+    };
+    font: {
+      size: 21px;
+      weight: 200;
+    };
+    line-height: 1.25;
+  }
+}
+
+#Breadcrumbs {
+  .Breadcrumbs {
+    display: block;
+    padding: 8px 15px;
+    text-shadow: 0 1px 0 white;
+    background-color: whitesmoke;
+
+    .Crumb {
+      padding: 0 5px;
+      color: #ccc;
+    }
+
+    .HomeCrumb > span,
+    > span:last-child > a,
+    .Crumb + span:last-child span {
+      color: #999;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+/* $ Panel
+ * ========================================================================== */
+
+#Panel {
+  width: 25%;
+  > *,
+  > * > * {
+    &:first-child {
+      margin: {
+        top: 0;
+      };
+    }
+    &:last-child {
+      margin: {
+        bottom: 0;
+      };
+    }
+  }
+  .PanelCategories {
+    @for $i from 1 through 12 {
+      .Depth#{$i} a {
+        margin-left: ($i - 1) * 10px;
+      }
+    }
+  }
+  .PanelInfo,
+  .FilterMenu {
+    li {
+      padding: 0;
+      border: none;
+      line-height: 20px;
+      background: {
+        color: whitesmoke;
+      };
+      a {
+        color: #999999;
+      }
+      a,
+      &.Heading {
+        position: relative;
+        display: block;
+        margin: {
+          bottom: -1px;
+        };
+        padding: 10px 15px;
+        background: {
+          color: white;
+        };
+        border: 1px solid #e5e5e5;
+      }
+      a:hover {
+        background: {
+          color: #eeeeee;
+        };
+        text-decoration: none;
+      }
+      &:first-child,
+      &:last-child {
+        border: none;
+      }
+      &.Active {
+        a {
+          z-index: 2;
+          color: white;
+          background: {
+            color: #555555;
+          };
+          border: {
+            color: #555555;
+          };
+          font: {
+            weight: normal;
+          };
+        }
+        .Count {
+          color: #555555;
+          background: {
+            color: white;
+          };
+        }
+      }
+    }
+  }
+}
+
+/* $ Content
+ * ========================================================================== */
+
+#Content {
+  width: 75%;
+}

@@ -1,0 +1,32 @@
+/* ==========================================================================
+ * $ Foot
+ * ========================================================================== */
+
+#Foot {
+  margin: 0;
+  padding: 0;
+
+  &:before {
+    @include linear-gradient(left, rgba(#000,0), rgba(#000,.1), rgba(#000,0));
+    display: block;
+    height: 1px;
+    margin: 20px 0;
+    border: 0;
+    content: " ";
+  }
+
+  #Legal {
+    @include clearfix;
+    margin: {
+      bottom: 20px;
+    };
+  }
+
+  .Copyright {
+    float: left;
+  }
+
+  .Credits {
+    float: right;
+  }
+}

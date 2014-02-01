@@ -22,18 +22,11 @@
  * IN THE SOFTWARE.
  */
 
-// ==========================================================================
-// $ Compass and extensions
-// ========================================================================== //
-
-@import compass/css3
-@import compass/utilities
-
 /* ==========================================================================
  * $ Table Of Contents
  * ========================================================================== */
 
-/**
+/*
  * 1. Base
  *   1. Typography
  * 2. Grid
@@ -45,77 +38,98 @@
 // $ Imports
 // ========================================================================== //
 
-@import ninja/base
+@import "ninja/mixins";
+@import "ninja/base";
 
-@import ninja/layout/grid
+@import "ninja/layout/grid";
 
-@import ninja/layout/head
-@import ninja/layout/body
-@import ninja/layout/foot
+@import "ninja/layout/head";
+@import "ninja/layout/body";
+@import "ninja/layout/foot";
 
-@import ninja/layout/forms
-@import ninja/layout/buttons
+@import "ninja/layout/forms";
+@import "ninja/layout/buttons";
 
-.Count
-    display: inline-block
-    padding: 4px 8px
-    color: #FFF
-    background:
-        color: #555
-    border:
-        radius: 2px
-    font:
-        size: 12px
-        weight: normal
-    line-height: 1
-    text-align: center
-    vertical-align: top
-    &:empty
-        display: none
+.Count {
+  display: inline-block;
+  padding: 4px 8px;
+  color: white;
+  background: {
+    color: #555555;
+  };
+  border: {
+    radius: 2px;
+  };
+  font: {
+    size: 12px;
+    weight: normal;
+  };
+  line-height: 1;
+  text-align: center;
+  vertical-align: top;
+  &:empty {
+    display: none;
+  }
+}
 
-.PageControls
-    min-height: auto
-    .PagerNub
-        padding: 5px 0
+.PageControls {
+  min-height: auto;
+  .PagerNub {
+    padding: 5px 0;
+  }
+}
 
-.NumberedPager
-    float: left
-    a,
-    span
-        float: left
-        margin: 0
-        padding: 4px 12px
-        font-weight: normal
-        line-height: 20px
-        text-decoration: none
-        background-color: #FFF
-        border: 1px solid #DDD
-        border-left-width: 0
-        &:first-child
-            border-left-width: 1px
-    a:hover,
-    .Highlight
-        background:
-            color: #F5F5F5
-    span,
-    .Highlight
-        color: #999
+.NumberedPager {
+  float: left;
+  a,
+  span {
+    float: left;
+    margin: 0;
+    padding: 4px 12px;
+    font-weight: normal;
+    line-height: 20px;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-left-width: 0;
+    &:first-child {
+      border-left-width: 1px;
+    }
+  }
 
-.Item
-    &,
-    &.Read
-        background: none
+  a:hover,
+  .Highlight {
+    background: {
+      color: whitesmoke;
+    };
+  }
 
-.DataList
-    .Item
-        padding: 10px 0
-        border:
-            color: #E5E5E5
+  span,
+  .Highlight {
+    color: #999999;
+  }
+}
 
-.DataTable
-    td
-        padding: 10px
-            left: 0
-        border:
-            color: #E5E5E5
-        vertical-align: middle
+.Item {
+  &,
+  &.Read {
+    background: none;
+  }
+}
+
+.DataList {
+  .Item {
+    padding: 10px 0;
+    border-color: #e5e5e5;
+  }
+}
+
+.DataTable {
+  td {
+    padding: 10px {
+      left: 0;
+    };
+    border-color: #e5e5e5;
+    vertical-align: middle;
+  }
+}

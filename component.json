@@ -1,9 +1,0 @@
-{
-  "name": "Ninja",
-  "version": "1.0.0",
-  "dependencies": {
-    "modernizr": "2.6.x",
-    "bootstrap": "https://github.com/twitter/bootstrap/archive/3.0.0-wip.zip",
-    "conditionizr": "git://github.com/conditionizr/conditionizr.git"
-  }
-}

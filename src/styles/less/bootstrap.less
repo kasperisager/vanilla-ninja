@@ -11,18 +11,14 @@
 // This is a custom Bootstrap build that includes only the basic Bootstrap assets.
 
 // Core variables and mixins
-@import "../../../components/bootstrap/less/variables.less";
-@import "../../../components/bootstrap/less/mixins.less";
+@import "variables";
+@import "mixins";
 
 // Reset
-@import "../../../components/bootstrap/less/normalize.less";
-@import "../../../components/bootstrap/less/print.less";
+@import "normalize";
+@import "print";
 
 // Core CSS
-@import "../../../components/bootstrap/less/scaffolding.less";
-@import "../../../components/bootstrap/less/type.less";
-@import "../../../components/bootstrap/less/code.less";
-
-// Components: common
-@glyphicons-font-path: "../components/bootstrap/fonts";
-@import "../../../components/bootstrap/less/glyphicons.less";
+@import "scaffolding";
+@import "type";
+@import "code";

@@ -1,0 +1,30 @@
+/* ==========================================================================
+ * $ Forms
+ * ========================================================================== */
+
+input.DateBox,
+input.InputBox,
+input.SmallInput,
+textarea {
+  padding: 6px;
+  background: {
+    color: white;
+  };
+  border: 1px solid #eeeeee;
+  font: {
+    family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    size: 14px;
+  };
+  line-height: 20px;
+  &:focus {
+    background: {
+      color: white;
+    };
+  }
+}
+
+.TextBoxWrapper {
+  padding: {
+    right: 0;
+  };
+}

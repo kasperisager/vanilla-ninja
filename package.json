@@ -1,25 +1,27 @@
 {
   "name": "Ninja",
-  "description": "Ninja is a super sneaky Node.js, Grunt and Bower powered scaffold for building superb Vanilla themes. Ninja allows you to easily use your choice of preprocessors and languages in your themes and enables you to write kick-ass build processes using the many plugins available for Grunt.",
-  "version": "1.0.0",
+  "description": "Ninja is a super sneaky Node.js, Gulp and Bower powered scaffold for building superb Vanilla themes. Ninja allows you to easily use your choice of preprocessors and languages in your themes and enables you to write kick-ass build processes using the many plugins available for Gulp.",
+  "version": "2.0.0",
+  "private": true,
   "author": {
-    "name": "Kasper K. Isager",
+    "name": "Kasper Isager",
     "email": "kasperisager@gmail.com",
     "url": "https://github.com/kasperisager"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kasperisager/Ninja.git"
+    "url": "https://github.com/kasperisager/vanilla-ninja.git"
   },
   "license": "MIT",
   "devDependencies": {
-    "grunt": "0.4.x",
-    "grunt-devtools": "0.1.x",
-    "grunt-reloadr": "0.1.x",
-    "grunt-contrib-compass": "0.1.x",
-    "grunt-contrib-less": "0.5.x",
-    "grunt-contrib-coffee": "0.6.x",
-    "grunt-contrib-watch": "0.3.x",
-    "grunt-contrib-uglify": "0.2.x"
+    "gulp": "3.5.x",
+    "gulp-less": "1.2.x",
+    "gulp-sass": "0.6.x",
+    "gulp-coffee": "1.4.x",
+    "gulp-uglify": "0.2.x",
+    "gulp-livereload": "0.2.x",
+    "tiny-lr": "0.0.x",
+    "gulp-concat": "~2.1.7",
+    "event-stream": "~3.1.0"
   }
 }

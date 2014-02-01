@@ -1,0 +1,14 @@
+.Row {
+  @include clearfix;
+  width: 940px;
+  @media screen and (min-width: 1200px) {
+    width: 1170px;
+  }
+}
+
+.Column {
+  padding: {
+    right: 15px;
+    left: 15px;
+  };
+}
