@@ -11,7 +11,7 @@ Ninja will also stealthily do browser sniffing and feature detection using [Cond
 ## Getting started
 
 To get started using Ninja, either:
-- [Download the latest release](https://github.com/kasperisager/vanilla-ninja/archive/master.zip)
+- [Download the latest release](https://github.com/kasperisager/vanilla-ninja/releases)
 - Clone the repository directly into your Vanilla `themes` directory:
 
 ```sh
@@ -64,4 +64,4 @@ If you come across any bugs or if you have a feature request, please [file an is
 Huge thanks to [Chris Spooner](http://twitter.com/chrisspooner) of [Spoon Graphics](http://www.spoongraphics.co.uk/) for his [tutorial](http://blog.spoongraphics.co.uk/tutorials/illustrator-tutorial-create-a-gang-of-vector-ninjas) on how to create vector Ninjas in Adobe Illustrator. I absolutely suck at stuff like that so it was awesome having someone show how it's done!
 
 ---
-Copyright © 2014 [Kasper K. Isager](https://github.com/kasperisager). Licensed under the terms of the [MIT License](LICENSE.md)
+Copyright © 2014 [Kasper Kronborg Isager](https://kasperisager.github.io). Licensed under the terms of the [MIT License](LICENSE.md)
