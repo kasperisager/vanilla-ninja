@@ -1,6 +1,8 @@
 [![Ninja](design/images/ninja.png)](https://github.com/kasperisager/vanilla-ninja)
 
-# Ninja [![Build Status](https://travis-ci.org/kasperisager/Ninja.png)](https://travis-ci.org/kasperisager/vanilla-ninja) [![Dependency Status](https://gemnasium.com/kasperisager/vanilla-ninja.png)](https://gemnasium.com/kasperisager/vanilla-ninja)
+# Ninja
+
+[![GitHub version](https://badge.fury.io/gh/kasperisager%2Fvanilla-ninja.png)](http://badge.fury.io/gh/kasperisager%2Fvanilla-ninja) [![Build Status](https://travis-ci.org/kasperisager/Ninja.png)](https://travis-ci.org/kasperisager/vanilla-ninja) [![Dependency Status](https://gemnasium.com/kasperisager/vanilla-ninja.png)](https://gemnasium.com/kasperisager/vanilla-ninja)
 
 
 Ninja is a super sneaky [Node.js](http://nodejs.org/), [Gulp](http://gulpjs.com/) and [Bower](http://bower.io/) powered scaffold for building superb Vanilla themes. Ninja allows you to easily use your choice of preprocessors and languages in your themes and enables you to write kick-ass build processes using the many plugins available for Gulp.
