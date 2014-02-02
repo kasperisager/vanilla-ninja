@@ -53,9 +53,11 @@ Runs the default Gulp task which will compile all assets including the Ninja scr
 Starts an instance of [tiny-lr](https://github.com/mklabs/tiny-lr) (a tiny LiveReload server) that watches the compiled assets for changes and pushes these to your Vanilla installation automatically whenever they change.
 
 
-## Issue tracking
+## [Issue tracking](https://github.com/kasperisager/vanilla-ninja/issues)
 
-If you come across any bugs or if you have a feature request, please [file an issue](https://github.com/kasperisager/vanilla-ninja/issues) using the Github Issue tracker. Ninja won't be supported through http://vanillaforums.org so please stick to using Github for inquiries about bugs and feature requests. Thanks!
+If you come across any bugs or if you have a feature request, please file an issue using the Github Issue tracker. Ninja won't be supported through http://vanillaforums.org so please stick to using Github for inquiries about bugs and feature requests. Thanks!
+
+[__File a new issue or feature request__](https://github.com/kasperisager/vanilla-ninja/issues/new)
 
 
 ## Special thanks
