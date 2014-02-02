@@ -46,10 +46,10 @@ $ npm install -g bower
 
 Once you've completed all of the above steps, you should be all set to start developing Vanilla themes using Ninja. Ninja comes with a couple of built-in Gulp tasks that you can use for compiling the source:
 
-#### build - `gulp`
+#### Build - `gulp`
 Runs the default Gulp task which will compile all assets including the Ninja scripts (`.coffee` by default) and stylesheets (`.scss` by default) as well as assets installed via Bower ([Bootstrap](https://github.com/twitter/bootstrap), Modernizr and Conditionizr by default).
 
-#### watch - `gulp ninja`
+#### Watch - `gulp ninja`
 Starts an instance of [tiny-lr](https://github.com/mklabs/tiny-lr) (a tiny LiveReload server) that watches the compiled assets for changes and pushes these to your Vanilla installation automatically whenever they change.
 
 
