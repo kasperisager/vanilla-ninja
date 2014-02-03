@@ -57,7 +57,7 @@ Starts an instance of [tiny-lr](https://github.com/mklabs/tiny-lr) (a tiny LiveR
 
 ## [Issue tracking](https://github.com/kasperisager/vanilla-ninja/issues)
 
-If you come across any bugs or if you have a feature request, please file an issue using the Github Issue tracker. Ninja won't be supported through http://vanillaforums.org so please stick to using Github for inquiries about bugs and feature requests. Thanks!
+If you come across any bugs or if you have a feature request, please file an issue using the GitHub Issue tracker. Ninja won't be supported through http://vanillaforums.org so please stick to using GitHub for inquiries about bugs and feature requests. Thanks!
 
 [__File a new issue or feature request__](https://github.com/kasperisager/vanilla-ninja/issues/new)
 
