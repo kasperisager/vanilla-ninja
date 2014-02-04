@@ -70,5 +70,3 @@ Huge thanks to [Chris Spooner](http://twitter.com/chrisspooner) of [Spoon Graphi
 ---
 
 Copyright 2014 © [Kasper Kronborg Isager](https://kasperisager.github.io). Licensed under the terms of the [MIT License](LICENSE.md)
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/kasperisager/vanilla-ninja/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
