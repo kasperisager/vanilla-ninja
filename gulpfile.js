@@ -5,7 +5,6 @@ var es = require('event-stream')
   , concat = require('gulp-concat')
   , coffee = require('gulp-coffee')
   , uglify = require('gulp-uglify')
-  , server = require('tiny-lr')()
   , livereload = require('gulp-livereload');
 
 var lessStream = function () {
@@ -34,7 +33,7 @@ gulp.task('styles', function () {
   es.merge(lessStream(), sassStream())
     .pipe(concat('custom.css'))
     .pipe(gulp.dest('design'))
-    .pipe(livereload(server));
+    .pipe(livereload());
 });
 
 gulp.task('scripts', function () {
@@ -42,19 +41,15 @@ gulp.task('scripts', function () {
     .pipe(uglify())
     .pipe(concat('custom.js'))
     .pipe(gulp.dest('js'))
-    .pipe(livereload(server));
+    .pipe(livereload());
 });
 
 gulp.task('ninja', function () {
-  server.listen(35729, function (err) {
-    if (err) return console.log(err);
+  gulp.watch('src/styles/**/*', function () {
+    gulp.run('styles');
+  });
 
-    gulp.watch('src/styles/**/*', function () {
-      gulp.run('styles');
-    });
-
-    gulp.watch('src/scripts/**/*', function () {
-      gulp.run('scripts');
-    });
+  gulp.watch('src/scripts/**/*', function () {
+    gulp.run('scripts');
   });
 });
