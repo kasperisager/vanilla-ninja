@@ -14,8 +14,8 @@ Ninja will also stealthily do browser sniffing and feature detection using [Cond
 
 To get started using Ninja, either:
 
--   [__Download the latest release__](https://github.com/kasperisager/vanilla-ninja/releases)
--   Clone the repository directly into your Vanilla `themes` directory:
+- [__Download the latest release__](https://github.com/kasperisager/vanilla-ninja/releases)
+- Clone the repository directly into your Vanilla `themes` directory:
     
 ```sh
 $ git clone kasperisager/vanilla-ninja ninja
