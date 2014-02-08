@@ -16,7 +16,6 @@ To get started using Ninja, either:
 
 -   [Download the latest release](https://github.com/kasperisager/vanilla-ninja/releases)
 -   Clone the repository directly into your Vanilla `themes` directory:
-    
     ```sh
     $ git clone kasperisager/vanilla-ninja ninja
     ```
