@@ -1,4 +1,4 @@
-[![Ninja](design/images/ninja.png)](https://github.com/kasperisager/vanilla-ninja)
+[![Ninja](https://rawgithub.com/kasperisager/vanilla-ninja/master/design/images/ninja.svg)](https://github.com/kasperisager/vanilla-ninja)
 
 # Ninja
 
@@ -13,9 +13,10 @@ Ninja will also stealthily do browser sniffing and feature detection using [Cond
 ## Getting started
 
 To get started using Ninja, either:
-- [Download the latest release](https://github.com/kasperisager/vanilla-ninja/releases)
-- Clone the repository directly into your Vanilla `themes` directory:
 
+- [__Download the latest release__](https://github.com/kasperisager/vanilla-ninja/releases)
+- Clone the repository directly into your Vanilla `themes` directory:
+    
 ```sh
 $ git clone kasperisager/vanilla-ninja ninja
 ```
