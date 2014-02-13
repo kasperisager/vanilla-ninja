@@ -1,4 +1,4 @@
-[![Ninja](design/images/ninja.png)](https://github.com/kasperisager/vanilla-ninja)
+[![Ninja](https://rawgithub.com/kasperisager/vanilla-ninja/master/design/images/ninja.svg)](https://github.com/kasperisager/vanilla-ninja)
 
 # Ninja
 
