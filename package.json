@@ -16,10 +16,10 @@
   "devDependencies": {
     "gulp": "3.5.x",
     "gulp-less": "1.2.x",
-    "gulp-sass": "0.6.x",
+    "gulp-sass": "0.7.x",
     "gulp-coffee": "1.4.x",
     "gulp-uglify": "0.2.x",
-    "gulp-livereload": "1.0.x",
+    "gulp-livereload": "1.1.x",
     "gulp-concat": "2.1.x",
     "event-stream": "3.1.x"
   }
