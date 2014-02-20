@@ -1,6 +1,6 @@
 {
-  "name": "Ninja",
-  "version": "2.0.0",
+  "name": "vanilla-ninja",
+  "private": true,
   "dependencies": {
     "modernizr": "2.6.x",
     "bootstrap": "3.0.x",
