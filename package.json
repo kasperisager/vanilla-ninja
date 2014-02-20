@@ -1,18 +1,6 @@
 {
-  "name": "Ninja",
-  "description": "Ninja is a super sneaky Node.js, Gulp and Bower powered scaffold for building superb Vanilla themes. Ninja allows you to easily use your choice of preprocessors and languages in your themes and enables you to write kick-ass build processes using the many plugins available for Gulp.",
-  "version": "2.0.0",
+  "name": "vanilla-ninja",
   "private": true,
-  "author": {
-    "name": "Kasper Isager",
-    "email": "kasperisager@gmail.com",
-    "url": "https://github.com/kasperisager"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kasperisager/vanilla-ninja.git"
-  },
-  "license": "MIT",
   "devDependencies": {
     "gulp": "3.5.x",
     "gulp-less": "1.2.x",
