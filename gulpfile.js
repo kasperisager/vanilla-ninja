@@ -44,12 +44,9 @@ gulp.task('scripts', function () {
     .pipe(livereload());
 });
 
-gulp.task('ninja', function () {
-  gulp.watch('src/styles/**/*', function () {
-    gulp.run('styles');
-  });
+gulp.task('default', ['styles', 'scripts']);
 
-  gulp.watch('src/scripts/**/*', function () {
-    gulp.run('scripts');
-  });
+gulp.task('ninja', function () {
+  gulp.watch('src/styles/**/*', ['styles']);
+  gulp.watch('src/scripts/**/*', ['scripts']);
 });
