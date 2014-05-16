@@ -2,8 +2,8 @@
   "name": "vanilla-ninja",
   "private": true,
   "dependencies": {
-    "modernizr": "2.6.x",
-    "bootstrap": "3.0.x",
-    "conditionizr": "4.0.x"
+    "modernizr": "2.8.x",
+    "bootstrap": "3.1.x",
+    "conditionizr": "4.3.x"
   }
 }
